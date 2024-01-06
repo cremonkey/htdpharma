@@ -2,11 +2,12 @@
 li a {
     color: white !important
 }
-header{
+.banner{
     background: url("../img/hero.png");
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
+    width: 100vw;
 }
 .btn-color{
     color: white;
@@ -24,11 +25,15 @@ header{
 }
 .hero{
    align-items: flex-end;
-   margin-top: 10%;
+   margin-top: 250px;
 }
 .wh-100{
     width: 100px;
 }
 .m-8{
     margin: 8px;
+}
+nav{
+    position: fixed !important;
+    top: 0;
 }
